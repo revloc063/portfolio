@@ -46,8 +46,20 @@ a:hover {
 .intro {
   text-align: center;
 }
+.sectionals {
+  display: flex;
+  justify-content: center;
+}
 .section {
   padding: 5px;
   border: 1px solid;
   margin: 10px;
+}
+@media only screen and (max-width: 582px) {
+  .sectionals {
+    flex-direction: column;
+  }
+  .section {
+
+  }
 }
